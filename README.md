@@ -81,14 +81,15 @@ Model 3, being a convolutional neural network (CNN), is specifically designed fo
 ## Displaying Images with Predictions:
 The displayed images with predictions showcase the performance of each model in predicting handwritten digits. Specifically, the indices `[2475, 3968, 3811, 359]` were selected due to the challenging nature of the digits they represent, leading to mispredictions by the first model.
 
-- **Model 1**: Among the four selected images:
+- **Model 1**:
   - All four images were incorrectly predicted by Model 1.
-
+<img src="./Images/model_1" alt="Activation Functions" width="1000"/>
 - **Model 2**: In comparison, Model 2 showed improved performance:
   - Only one of the selected images (index 2475) was mispredicted, while the remaining three were correctly classified.
-
+<img src="./Images/model_2" alt="Activation Functions" width="1000"/>
 - **Model 3**: The convolutional model (Model 3) demonstrated the highest accuracy:
   - All four selected images were accurately classified, indicating robust performance even on challenging digit samples.
+<img src="./Images/model_3" alt="Activation Functions" width="1000"/>
 
 `These results highlight the effectiveness of the models, with Model 3, the convolutional neural network, exhibiting the most reliable predictions, particularly on complex digit representations.`
 
