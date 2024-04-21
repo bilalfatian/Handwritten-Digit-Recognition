@@ -47,7 +47,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
   - Mathematically, the sigmoid function is defined as:
   - the sigmoid activation function is applied to the output of the hidden layer with 100 neurons. This introduces non-linearity into the network, allowing it to learn complex patterns in the data.
 - `Why Sigmoid`:
- - Sigmoid activation is chosen for the hidden layer to introduce non-linearity and capture complex patterns in the data, especially when dealing with features that may have non-linear relationships.
+  - Sigmoid activation is chosen for the hidden layer to introduce non-linearity and capture complex patterns in the data, especially when dealing with features that may have non-linear relationships.
  
 
 - Softmax Activation Function:
@@ -58,7 +58,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
   - the softmax activation function is applied to the output layer with 10 neurons, where each neuron represents a class in the multi-class classification problem.
 
 - `Why Softmax`:
- - Softmax activation in the output layer is suitable for multi-class classification tasks because it provides a probability distribution over the classes, making it easy to interpret the model's predictions and compare the likelihood of each class.
+  - Softmax activation in the output layer is suitable for multi-class classification tasks because it provides a probability distribution over the classes, making it easy to interpret the model's predictions and compare the likelihood of each class.
 
 
 
@@ -71,9 +71,9 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
   - the ReLU activation function is used in the convolutional layers (Conv2D) to introduce non-linearity after each convolution operation. This helps the model learn complex patterns in the input images.
 
 - `Why ReLU`:
- - ReLU is chosen over other activation functions like sigmoid or tanh because it overcomes the vanishing gradient problem more effectively, allowing for faster convergence during training.
- - ReLU also helps to sparsely activate neurons, leading to more efficient computation and better generalization.
- - Additionally, ReLU has a derivative that is either 0 or 1, which simplifies the backpropagation process and reduces the likelihood of the vanishing gradient problem.
+  - ReLU is chosen over other activation functions like sigmoid or tanh because it overcomes the vanishing gradient problem more effectively, allowing for faster convergence during training.
+  - ReLU also helps to sparsely activate neurons, leading to more efficient computation and better generalization.
+  - Additionally, ReLU has a derivative that is either 0 or 1, which simplifies the backpropagation process and reduces the likelihood of the vanishing gradient problem.
 
 
 
