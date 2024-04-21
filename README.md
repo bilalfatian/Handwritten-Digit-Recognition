@@ -83,13 +83,18 @@ The displayed images with predictions showcase the performance of each model in 
 
 - **Model 1**:
   - All four images were incorrectly predicted by Model 1.
-<img src="./Images/model_1.png" alt="Activation Functions" width="1000"/>
+
+<img src="./Images/model_1.png" alt="Activation Functions" width="500"/>
+
 - **Model 2**: In comparison, Model 2 showed improved performance:
   - Only one of the selected images (index 2475) was mispredicted, while the remaining three were correctly classified.
-<img src="./Images/model_2.png" alt="Activation Functions" width="1000"/>
+    
+<img src="./Images/model_2.png" alt="Activation Functions" width="500"/>
+
 - **Model 3**: The convolutional model (Model 3) demonstrated the highest accuracy:
   - All four selected images were accurately classified, indicating robust performance even on challenging digit samples.
-<img src="./Images/model_3.png" alt="Activation Functions" width="1000"/>
+
+<img src="./Images/model_3.png" alt="Activation Functions" width="500"/>
 
 `These results highlight the effectiveness of the models, with Model 3, the convolutional neural network, exhibiting the most reliable predictions, particularly on complex digit representations.`
 
