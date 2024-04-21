@@ -78,6 +78,20 @@ Model 3, being a convolutional neural network (CNN), is specifically designed fo
 
 **In summary, the superior performance of Model 2 over Model 1 is attributed to its increased complexity with an additional hidden layer, while the outstanding performance of Model 3 is due to its specialized architecture tailored for image data, which effectively captures relevant features for classification.**
 
+## Displaying Images with Predictions:
+The displayed images with predictions showcase the performance of each model in predicting handwritten digits. Specifically, the indices `[2475, 3968, 3811, 359]` were selected due to the challenging nature of the digits they represent, leading to mispredictions by the first model.
+
+- **Model 1**: Among the four selected images:
+  - All four images were incorrectly predicted by Model 1.
+
+- **Model 2**: In comparison, Model 2 showed improved performance:
+  - Only one of the selected images (index 2475) was mispredicted, while the remaining three were correctly classified.
+
+- **Model 3**: The convolutional model (Model 3) demonstrated the highest accuracy:
+  - All four selected images were accurately classified, indicating robust performance even on challenging digit samples.
+
+`These results highlight the effectiveness of the models, with Model 3, the convolutional neural network, exhibiting the most reliable predictions, particularly on complex digit representations.`
+
 
 ## Understanding Activation Functions: Sigmoid, Softmax, and ReLU
 - Sigmoid Activation Function:
