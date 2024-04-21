@@ -39,7 +39,46 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
   - Dense layer with 10 neurons and softmax activation.
 ##### `Training:`
 - Stochastic Gradient Descent (SGD) optimizer.
+
+## Model Comparison and Analysis
+
+Let's compare the three models based on their loss and compile metrics:
+
+1. **Model 1:**
+   - Loss: 27.53
+   - Compile Metrics: 92.29
+
+2. **Model 2:**
+   - Loss: 17.91
+   - Compile Metrics: 94.97
+
+3. **Model 3:**
+   - Loss: 2.96
+   - Compile Metrics: 98.99
+
+Now, let's analyze why the second model is better than the first one and why the third one is the best:
+
+**Comparison between Model 1 and Model 2:**
+
+- **Loss:** Model 2 has a lower loss (17.91) compared to Model 1 (27.53). A lower loss indicates that the model's predictions are closer to the actual values, implying better performance.
   
+- **Compile Metrics (Accuracy):** Model 2 has a higher compile metric (accuracy) of 94.97 compared to Model 1 (92.29). This means that Model 2 has a higher accuracy in predicting the correct labels for the test data.
+
+**Explanation:**
+Model 2 outperforms Model 1 because it has more complex architecture with an additional hidden layer of 100 neurons. The increased complexity allows the model to learn more intricate patterns and relationships in the data, leading to better performance in terms of accuracy and loss reduction.
+
+**Comparison between Model 2 and Model 3:**
+
+- **Loss:** Model 3 has the lowest loss (2.96) among all models, indicating the best performance in terms of minimizing prediction errors.
+
+- **Compile Metrics (Accuracy):** Model 3 has the highest compile metric (accuracy) of 98.99, which implies that it achieves the highest accuracy in predicting the correct labels for the test data.
+
+**Explanation:**
+Model 3, being a convolutional neural network (CNN), is specifically designed for image data. It leverages convolutional and pooling layers to extract hierarchical features from the images, allowing it to capture intricate patterns present in the data. This architecture is well-suited for image classification tasks, resulting in superior performance compared to the other models.
+
+In summary, the superior performance of Model 2 over Model 1 is attributed to its increased complexity with an additional hidden layer, while the outstanding performance of Model 3 is due to its specialized architecture tailored for image data, which effectively captures relevant features for classification.
+
+
 ## Understanding Activation Functions: Sigmoid, Softmax, and ReLU
 - Sigmoid Activation Function:
   - The sigmoid function, also known as the logistic function, is a type of activation function used in neural networks.
