@@ -46,7 +46,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
   - It squashes the input values between 0 and 1, making it suitable for binary classification problems.
   - Mathematically, the sigmoid function is defined as:
   - the sigmoid activation function is applied to the output of the hidden layer with 100 neurons. This introduces non-linearity into the network, allowing it to learn complex patterns in the data.
-- `Why Sigmoid`:
+`Why Sigmoid`:
   - Sigmoid activation is chosen for the hidden layer to introduce non-linearity and capture complex patterns in the data, especially when dealing with features that may have non-linear relationships.
  
 
