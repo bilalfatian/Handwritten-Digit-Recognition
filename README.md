@@ -10,22 +10,22 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
 
 ## Models
 ### Model 1: Simple Neural Network
-##### Architecture:
+##### `Architecture:`
 - One hidden layer with 10 neurons and a softmax output layer.
-##### Layers:
+##### `Layers:`
 - Dense layer with 10 neurons and softmax activation.
-##### Training:
+##### `Training:`
 - Stochastic Gradient Descent (SGD) optimizer.
 #### Model 2: Neural Network with Increased Complexity
-##### Architecture:
+##### `Architecture:`
 - One hidden layer with 100 neurons and a softmax output layer.
-##### Layers:
+##### `Layers:`
 - Dense layer with 100 neurons and sigmoid activation.
 - Dense layer with 10 neurons and softmax activation.
-##### Training:
+##### `Training:`
 - Stochastic Gradient Descent (SGD) optimizer.
 #### Model 3: Convolutional Neural Network (CNN)
-##### Architecture:
+##### `Architecture:`
 - Convolutional layers followed by max-pooling layers to extract features.
 - Flattening layer followed by dense layers for classification.
 ##### `Layers:`
@@ -37,7 +37,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
 - Dense layers:
   - Dense layer with 100 neurons and sigmoid activation.
   - Dense layer with 10 neurons and softmax activation.
-##### Training:
+##### `Training:`
 - Stochastic Gradient Descent (SGD) optimizer.
 #### Usage
 - Clone the repository to your local machine.
