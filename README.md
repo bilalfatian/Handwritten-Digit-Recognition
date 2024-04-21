@@ -81,7 +81,7 @@ ReLU also helps to sparsely activate neurons, leading to more efficient computat
 
 Additionally, ReLU has a derivative that is either 0 or 1, which simplifies the backpropagation process and reduces the likelihood of the vanishing gradient problem.
 
-<img src="./Images/activation_functions.png" alt="Activation Functions" width="100"/>
+<img src="./Images/activation_functions.png" alt="Activation Functions" width="1000"/>
 
 
 
