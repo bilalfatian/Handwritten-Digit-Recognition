@@ -36,8 +36,8 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
 - Dense layers:
   - Dense layer with 100 neurons and sigmoid activation.
   - Dense layer with 10 neurons and softmax activation.
-- Training:
-  - Stochastic Gradient Descent (SGD) optimizer.
+##### **Training**:
+- Stochastic Gradient Descent (SGD) optimizer.
 #### Usage
 - Clone the repository to your local machine.
 - Install the required dependencies listed in requirements.txt.
