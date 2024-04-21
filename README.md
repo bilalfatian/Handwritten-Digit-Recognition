@@ -28,7 +28,9 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
 ##### Architecture:
 - Convolutional layers followed by max-pooling layers to extract features.
 - Flattening layer followed by dense layers for classification.
-<u>##### Layers:</u>
+##### Layers:
+---------------
+
 
 - Convolutional layers:
   - First Conv2D layer with 16 filters, kernel size (5,5), and ReLU activation.
@@ -37,7 +39,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
 - Dense layers:
   - Dense layer with 100 neurons and sigmoid activation.
   - Dense layer with 10 neurons and softmax activation.
-##### **Training**:
+##### Training:
 - Stochastic Gradient Descent (SGD) optimizer.
 #### Usage
 - Clone the repository to your local machine.
