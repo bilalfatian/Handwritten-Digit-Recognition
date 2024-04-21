@@ -28,9 +28,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
 ##### Architecture:
 - Convolutional layers followed by max-pooling layers to extract features.
 - Flattening layer followed by dense layers for classification.
-##### Layers:
----------------
-
+##### `Layers:`
 
 - Convolutional layers:
   - First Conv2D layer with 16 filters, kernel size (5,5), and ReLU activation.
