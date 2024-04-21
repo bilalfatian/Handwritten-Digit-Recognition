@@ -1,13 +1,30 @@
 # Handwritten Digit Recognition using Neural Networks
+
+## 📝 Table of Contents
+
+1. [ Project Overview ](#Overview)
+2. [ Problem Statement ](#Statement)
+3. [ Dataset ](#Dataset)
+4. [ Models ](#Models)
+5. [ Model Comparison and Analysis ](#Comparison)
+6. [ Displaying Images with Predictions ](#Predictions)
+7. [ Understanding Activation Functions: Sigmoid, Softmax, and ReLU ](#Functions)
+8. [ Usage ](#Usage)
+<hr>
+
+<a name="Overview"></a>
 ## Overview
 This project aims to develop and compare three different neural network models for handwritten digit recognition. Handwritten digit recognition is a classic problem in the field of machine learning and computer vision, with applications in various domains such as postal automation, bank check processing, and digitized document handling.
 
+<a name="Statement"></a>
 ## Problem Statement
 The task is to classify grayscale images of handwritten digits (0 through 9) into their respective categories. Given an image of a handwritten digit, the model should predict the correct digit label.
 
+<a name="Dataset"></a>
 ## Dataset
 The dataset used for this project is the MNIST dataset, one of the most commonly used datasets in the machine learning community. It consists of 60,000 training images and 10,000 test images of handwritten digits, each image being a grayscale 28x28 pixel matrix.
 
+<a name="Models"></a>
 ## Models
 ### Model 1: Simple Neural Network
 ##### `Architecture:`
@@ -40,6 +57,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
 ##### `Training:`
 - Stochastic Gradient Descent (SGD) optimizer.
 
+<a name="Comparison"></a>
 ## Model Comparison and Analysis
 
 Let's compare the three models based on their loss and compile metrics:
@@ -78,6 +96,7 @@ Model 3, being a convolutional neural network (CNN), is specifically designed fo
 
 **In summary, the superior performance of Model 2 over Model 1 is attributed to its increased complexity with an additional hidden layer, while the outstanding performance of Model 3 is due to its specialized architecture tailored for image data, which effectively captures relevant features for classification.**
 
+<a name="Predictions"></a>
 ## Displaying Images with Predictions:
 The displayed images with predictions showcase the performance of each model in predicting handwritten digits. Specifically, the indices `[2475, 3968, 3811, 359]` were selected due to the challenging nature of the digits they represent, leading to mispredictions by the first model.
 
@@ -98,7 +117,7 @@ The displayed images with predictions showcase the performance of each model in 
 
 `These results highlight the effectiveness of the models, with Model 3, the convolutional neural network, exhibiting the most reliable predictions, particularly on complex digit representations.`
 
-
+<a name="Functions"></a>
 ## Understanding Activation Functions: Sigmoid, Softmax, and ReLU
 - Sigmoid Activation Function:
   - The sigmoid function, also known as the logistic function, is a type of activation function used in neural networks.
@@ -149,7 +168,7 @@ Additionally, ReLU has a derivative that is either 0 or 1, which simplifies the 
 
 
 
-
+<a name="Usage"></a>
 ## Usage
 - Clone the repository to your local machine.
 - Install the required dependencies listed in requirements.txt.
