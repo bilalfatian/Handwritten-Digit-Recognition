@@ -39,7 +39,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
   - Dense layer with 10 neurons and softmax activation.
 ##### `Training:`
 - Stochastic Gradient Descent (SGD) optimizer.
-- 
+  
 ## Understanding Activation Functions: Sigmoid, Softmax, and ReLU
 - Sigmoid Activation Function:
   - The sigmoid function, also known as the logistic function, is a type of activation function used in neural networks.
