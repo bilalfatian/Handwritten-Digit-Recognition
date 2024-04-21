@@ -49,7 +49,7 @@ The dataset used for this project is the MNIST dataset, one of the most commonly
     
 `Why Sigmoid`:
 
-  - Sigmoid activation is chosen for the hidden layer to introduce non-linearity and capture complex patterns in the data, especially when dealing with features that may have non-linear relationships.
+Sigmoid activation is chosen for the hidden layer to introduce non-linearity and capture complex patterns in the data, especially when dealing with features that may have non-linear relationships.
  
 
 - Softmax Activation Function:
