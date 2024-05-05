@@ -174,3 +174,8 @@ Additionally, ReLU has a derivative that is either 0 or 1, which simplifies the 
 - Install the required dependencies listed in requirements.txt.
 - Run the scripts for training and evaluating the models.
 - Experiment with different hyperparameters and architectures for further improvement.
+
+## Contact Me 📨
+
+- **LinkedIn:** [Bilal Fatian](https://www.linkedin.com/in/bilal-fatian-806813254/)
+- **Gmail:** [fatian.bilal@gmail.com](mailto:fatian.bilal@gmail.com)
